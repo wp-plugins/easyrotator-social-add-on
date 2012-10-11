@@ -49,7 +49,7 @@ er_preprocessCallbacks.push(function($){
         '</div>';
     // --- Button CSS Styles ---
     var floaterCSS = '<style type="text/css">' +
-        '   #erSocialFloater.erSocialFloaterDefault { line-height: 32px; padding: 0; }' +
+        '   #erSocialFloater.erSocialFloaterDefault { line-height: 32px; padding: 0; height: 32px; }' +
         '   #erSocialFloater.erSocialFloaterDefault a { display: inline-block; width: 32px; height: 32px; margin: 0 0 0 ' + opts.spacing + 'px; text-decoration: none; border: none; padding: 0; }' +
         '   #erSocialFloater.erSocialFloaterDefault a:first-child { margin-left: 0; }' +
         '   #erSocialFloater.erSocialFloaterDefault a:hover { text-decoration: none; border: none; }' +
